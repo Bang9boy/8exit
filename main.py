@@ -119,7 +119,7 @@ def play_sound(sound):
 
 # 함수
 def reset_anomalies():
-    scene.fog_density = 0.02
+    scene.fog_density = 0.05
     scene.fog_color = color.black
     camera.rotation_z = 0
     camera.fov = default_fov
